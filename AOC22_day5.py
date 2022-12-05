@@ -6,7 +6,7 @@ for n in range(len(r)):
     if r[n] == ['\n']:
         x = n
 l = r[:x - 1][::-1]
-print(l)
+
 h = []
 for n in range(9):
     h.append([])
